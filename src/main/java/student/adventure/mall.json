@@ -1,0 +1,134 @@
+{
+  "startingRoom": "ParkingLot",
+  "endingRoom": "Starbucks",
+  "rooms": [
+    {
+      "name": "ParkingLot",
+      "description": "You are currently at the parking lot, outside the mall",
+      "items": ["coupon"],
+      "image": "https://www.fsclighting.com/wp-content/uploads/2018/08/UCT-LJ11.jpg",
+      "video": "https://www.youtube.com/watch?v=mYYJVicsy6M",
+      "directions": [
+        {
+          "directionName": "East",
+          "room": "MallEntry"
+        }
+      ]
+    },
+    {
+      "name": "MallEntry",
+      "description": "You are in the west entry of the mall. You can see the escalators, the Nordstrom, and corridors to east and west with more shops.",
+      "items": ["receipt"],
+      "image": "https://www.pymnts.com/wp-content/uploads/2020/05/reinventing-shopping-malls-retail.jpg",
+      "video": "https://www.youtube.com/watch?v=iX6ex5fYT7o",
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "MallEntry"
+        },
+        {
+          "directionName": "Northeast",
+          "room": "Nordstrom"
+        },
+        {
+          "directionName": "North",
+          "room": "MallNorthCorridor"
+        },
+        {
+          "directionName": "East",
+          "room": "MallEastCorridor"
+        }
+      ]
+    },
+    {
+      "name": "Nordstrom",
+      "description": "You are at Nordstrom, they are having a sale on shoes.",
+      "items": ["shoes", "leather purse"],
+      "image": "https://sourcingjournal.com/wp-content/uploads/2019/05/Nordstrom-store-Los-Angeles.jpg",
+      "video": "https://www.youtube.com/watch?v=FJ6UtVkBN80",
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "MallEntry"
+        }
+      ]
+    },
+    {
+      "name": "MallNorthCorridor",
+      "description": "You are in the north corridor. You can see the food court and the elevator.",
+      "image": "https://i.pinimg.com/originals/16/b2/40/16b2405f19a19e94a32451716a5474f7.jpg",
+      "video": "https://www.youtube.com/watch?v=H3GL5jO53NU",
+      "items": ["free sample"],
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "MallEntry"
+        },
+        {
+          "directionName": "NorthEast",
+          "room": "Food Court"
+        }
+      ]
+    },
+    {
+      "name": "Food Court",
+      "description": "You are at the food court. Bon Apetit!",
+      "items": ["churros", "cinnabon", "boba"],
+      "image": "https://www.gannett-cdn.com/-mm-/0698a7aa736b1a963a671629dc9a2ffca2c39999/c=756-1035-3173-2400/local/-/media/2015/10/14/Morristown/B9319266830Z.1_20151014083109_000_G51C7PGIS.1-0.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
+      "video": "https://www.youtube.com/watch?v=5GCgQerHZa0",
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "MallNorthCorridor"
+        }
+      ]
+    },
+    {
+      "name": "MallEastCorridor",
+      "description": "You are in the east corridor.  You can see a Lush and a Hot Topic.",
+      "items": ["shopping bag"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/HK_TST_New_World_Centre_mall_interior_corridor.JPG",
+      "video": "https://www.youtube.com/watch?v=H3GL5jO53NU",
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "MalEntry"
+        },
+        {
+          "directionName": "South",
+          "room": "Starbucks"
+        },
+        {
+          "directionName": "Up",
+          "room": "MallTopFloor"
+        }
+      ]
+    },
+    {
+      "name": "Starbucks",
+      "description": "You are at Starbucks. There are people having coffee and snacks!",
+      "items": ["latte", "cake pop", "frappiccino"],
+      "image": "https://corporate.target.com/_media/TargetCorp/news/2019/10/starbucks/ABV_Starbucks_Header.jpg",
+      "video": "https://www.youtube.com/watch?v=eylcZr7o0zs",
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "MallEastCorridor"
+        }
+      ]
+    },
+    {
+      "name": "MallTopFloor",
+      "description": "You have ridden the escalator to the top floor! Here there are more shops.",
+      "items": ["blouse"],
+      "image": "https://i.pinimg.com/originals/15/9a/62/159a6238b6af4f029666ec7e1b5cba76.jpg",
+      "video": "https://www.youtube.com/watch?v=XXSrR5TXDeY",
+      "directions": [
+        {
+          "directionName": "down",
+          "room": "MallEastCorridor"
+        }
+      ]
+    }
+  ]
+}
